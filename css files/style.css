@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:purple;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgb(39, 37, 37);
+}
+.home{
+    background-image:url('/images/pexels-toni-cuenca-619418.jpg');
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* margin:0 1em; */
+    padding: 0.5em 1em;
+    /* border: 2px solid yellow; */
+    background-color: rgb(43, 41, 41);
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    margin: 0.3em;
+    padding: 0.5em;
+    list-style: none;
+    
+}
+.nav-li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-size: 1.35rem;
+    font-family: 'Fruktur', cursive;
+    color: white;
+    
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.logo{
+    font-size: 1.35rem;
+    font-family: 'Fruktur', cursive;
+    color: yellow;
+}
+.nav-li a:hover{
+    text-decoration: solid;
+    color: grey;
+    padding: 0.4em 0;
+    text-decoration: underline grey;
+}
+.ham{
+    display: none;
+}
+.slider , .active{
+    min-height: 85vh;
+    display: flex;
+    width: 80%;
+    /* margin: auto; */
+    /* margin-top: 1em; */
+    margin-top: 0;
+    border: 2px solid crimson;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: none;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+    display: none;
+}
+.active{
+    display: block;
+    min-height: 85vh;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    /* border: 2px solid crimson; */
+    /* align-items: center; */
+    justify-content: space-between;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: none;
+    transition: all 300ms ease-in-out;
+    align-items: center;
+}
+.active:hover{
+    padding: 0.7em;
+}
+.content{
+    text-align: center;
+    /* border: 2px solid white; */
+    margin-bottom: 10em ;
+    height: max-content;
+    width: auto;
+    font-family: 'Fruktur', cursive;    
+}
+.content h3{
+    font-size: 3.8rem;
+    background-color: grey;
+    font-weight: bold; 
+}
+
+.btn{
+    font-size: 1.8rem;
+    margin-top: 0.5em;
+    padding: 0.3em;
+    font-weight: bold;
+    background-color: rgb(7, 59, 88);
+    border: none;
+    transition: all 350ms ease-in;
+}
+.btn:hover{
+    padding: 0.5em;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.home-slider{
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+}
+/* .buttons{ */
+    /* border: 2px solid brown; */
+/* } */
+#prev, #next{
+    color: white;
+    height: 4.3em;
+    width: 2.3em;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 20%;
+}
+#prev:hover, #next:hover{
+    cursor:pointer;
+    color: black;
+    background-color: grey;
+    font-weight: bolder;
+    border-radius: 20%;
+}
+.text{
+    height: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.our-pro{
+    border: 2px solid yellow;
+}
+.image img{
+    height: 22rem;
+    width: 80%;
+    border: 2px solid white;
+}
+.box{
+    display: none;
+}
+.show{
+    display: block;
+    border: 2px solid blue;
+    width: 30%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+}
+@media (max-width:600px){
+
+    #dis{
+        display: none;
+        flex-direction: column;
+        border: 2px solid orange;
+    }
+    .ham{
+        width: 35px;
+        height: 35 px;
+        display: block;
+        content: '';
+        transition: 0.4s;
+    }
+    .about{
+        width: 100%;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .show{
+        width: 100%;
+    }
+}
+.aboutUs{
+    border: 2px solid pink;
+    min-height: 85vh;
+    background-size: cover;
+}
+.about{
+    color: white;
+    font-family: sans-serif;
+    width: 50%;
+    padding: 2em;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(153, 150, 150);
+    width: 100%;
+  }
+  .contact ul{
+    margin: 25px;
+  }
+  .contact ul li, a{
+    color: black;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    margin: 5px;
+  }
+  .heading{
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+  }
+  .footer{
+    height: 50px;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8cm;
+    font-weight: bolder;
+    color: white;
+  }

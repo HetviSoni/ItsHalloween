@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<head>
+    <title>🎃🎃</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css files/style.css">
+    <script src="/javascript files/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/pumpkin.png" alt="">
+            Its Halloween
+        </div>
+        <nav class="navbar">
+
+            <img class="ham" id="menu" src="/images/icons8-menu-35.png" onclick="show()"></img>
+            <!-- <i class="fas fa-bars"></i> -->
+            <ul class="nav-ul" id="dis">
+                <li class="nav-li"><a href="#">Home</a></li>
+                <li class="nav-li"><a href="#">Products</a></li>
+                <li class="nav-li"><a href="#">New Arrivals</a></li>
+                <li class="nav-li"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-slider">
+            <div class="slider active" id="content1"
+                style="background-image:url('/images/halloween_background_2007.jpg');">
+                <button id="prev" onclick="prev()">&lt</button>
+                <div class="content">
+                    <h3>
+                        UPTO <span style="color: orange; font-size: 4.3rem;">50%</span> OFF
+                        <p>
+                            On all costumes
+                        </p>
+                    </h3>
+                    <button class="btn">
+                        <a href="#">Shop NOW</a>
+                    </button>
+                </div>
+                <button id="next" onclick="next()">&gt</button>
+            </div>
+            <div class="slider" id="content2"
+                style="background:url('/images/pexels-felipe-hueb-2747893.jpg'); background-size: 100%;">
+                <button id="prev" onclick="prev()">&lt</button>
+                <div class="content">
+                    <h3>
+                        UPTO 50% OFF
+                        <p>
+                            On all costumes
+                        </p>
+                    </h3>
+                    <button class="btn">
+                        <a href="#">Shop NOW</a>
+                    </button>
+                </div>
+                <button id="next" onclick="next()">&gt</button>
+            </div>
+            <div class="slider" id="content3"
+                style="background:url('/images/spooky_halloween_scene_2207.jpg'); background-size: 100%;">
+                <button id="prev" onclick="prev()">&lt</button>
+                <div class="content">
+                    <h3>
+                        UPTO 50% OFF
+                        <p>
+                            On all costumes
+                        </p>
+                    </h3>
+                    <button class="btn">
+                        <a href="#">Shop NOW</a>
+                    </button>
+                </div>
+                <button id="next" onclick="next()">&gt</button>
+            </div>
+        </div>
+    </section>
+    <div class="our-pro">
+        <div class="text">Our <span class="prod" style="color: orange;">Products</span></div>
+    </div>
+    <section class="products" id="products">
+        <div class="product-slider">
+            <div class="wrapper">
+                <div class="box show">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img1.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div>
+                <div class="box show">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img2.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div><div class="box show">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img3.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div><div class="box">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img2.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div><div class="box">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img1.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="product-slider">
+            <div class="wrapper">
+                <div class="box show">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img1.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div>
+                <div class="box show">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img2.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div><div class="box show">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img3.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div><div class="box">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img2.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div><div class="box">
+                    <div class="icons">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                        <img src="/images/shopping-cart-solid.svg" alt="" style="width: 2%; height: 2%;">
+                    </div>
+                    <div class="image">
+                        <img src="/images/img1.png" alt="">
+                    </div>
+                    <!-- <div class="content">
+                        <h3>Latest Products</h3>
+                        <div class="price">$79.99 <span>$95.99</span></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aboutUs" style="background-image:url('/images/pexels-david-gomes-3054218.jpg');">
+        <!-- this is about us -->
+        <div class="our-pro">
+            <div class="text">About <span class="prod" style="color: orange;">Us</span></div>
+        </div>
+        <div class="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere praesentium eligendi maxime cumque adipisci fuga, ab, non dolorem ducimus, rem corporis ex vel nobis fugit itaque inventore? Molestiae, debitis quas.lorem
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat suscipit cupiditate quae deleniti assumenda voluptatum voluptatibus minima praesentium, labore, architecto voluptates vel libero illum nihil laboriosam quisquam repellat amet non.
+        </div>
+    </section>
+    
+  <div class="contact">
+    <ul>
+      <li class="heading">Contact:</li>
+      <li>Ph:95768xyza</li>
+      <li>E:halloweenSpecial@gmail.com</li>
+      <li>
+        <ul id="logos">
+          <li>
+              <a href="https://www.linkedin.com/in/sauravmukherjee44/"><i class="fab fa-linkedin-in icon"></i>
+              </a>
+          </li>
+          <li>
+            <a href="https://github.com/SauravMukherjee44" target="github"> <i class="fab fa-github icon"></i> </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li class="heading">Community</li>
+      <li>Our Story</li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Refund Policy</a></li>
+      <li><a href="#">Terms Of use</a> </li>
+      <li>Accessibility</li>
+      <li><a href="#">Publishing process</a> </li>
+    </ul>
+    <ul>
+      <li class="heading">Company</li>
+      <li><a href="#">Contact us</a> </li>
+      <li><a href="#">Terms and conditions</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+    <ul>
+      <li class="heading">Subscribe to our newsletter</li>
+    </ul>
+  </div>
+  <div class="footer">
+    Copyright 2021
+  </div>
+</body>
+
+</html>
